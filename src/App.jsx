@@ -15,6 +15,8 @@ function App() {
     event.preventDefault();
 
     const newEntry = { country, gold, silver, bronze };
+    j
+    
     
     // 새 항목 추가와 동시에 금메달 기준으로 내림차순 정렬
     setMedals((prevList) => [...prevList, newEntry].sort((a, b) => b.gold - a.gold));
